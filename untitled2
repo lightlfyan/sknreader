@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>lol2dae v1.3</authoring_tool>
+        </contributor>
+        <created>2016-01-04T11:37:31Z</created>
+        <modified>2016-01-04T11:37:31Z</modified>
+        <unit meter="0.01" name="centimeter"/>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+
+    <library_effects>
+        <effect id="DefaultLambert">
+            <profile_COMMON>
+                <technique sid="Base">
+                    <lambert>
+                        <emission>
+                            <color>0.0 0.0 0.0 1.0</color>
+                        </emission>
+                        <ambient>
+                            <color>0.0 0.0 0.0 1.0</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.5 0.5 0.5 1.0</color>
+                        </diffuse>
+                    </lambert>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_materials>
+        <material id="DefaultMaterial">
+            <instance_effect url="#DefaultLambert"/>
+        </material>
+    </library_materials>
